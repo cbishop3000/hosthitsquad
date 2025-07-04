@@ -2,7 +2,7 @@ import { Shield, Phone, MapPin, CheckCircle, Star } from 'lucide-react';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-emerald-50">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-emerald-800">
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-purple-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,7 +16,7 @@ export default function Home() {
               <a href="#pricing" className="text-gray-700 hover:text-purple-600 transition-colors">Pricing</a>
               <a href="#contact" className="text-gray-700 hover:text-purple-600 transition-colors">Contact</a>
             </nav>
-            <button className="bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700 transition-colors shadow-md">
+            <button className="bg-purple-800 text-white px-6 py-2 rounded-full hover:bg-purple-700 transition-colors shadow-md">
               Get Started
             </button>
           </div>
@@ -35,10 +35,10 @@ export default function Home() {
               a required local contact to meet county regulations and a reliable in-person backup for emergency guest needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-purple-600 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-purple-700 transition-colors shadow-lg">
+              <button className="bg-purple-800 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-purple-700 transition-colors shadow-lg">
                 Start Your Service
               </button>
-              <button className="border-2 border-purple-600 text-purple-600 px-8 py-4 rounded-full text-lg font-medium hover:bg-purple-50 transition-colors">
+              <button className="border-2 border-purple-800 text-purple-800 px-8 py-4 rounded-full text-lg font-medium hover:bg-purple-50 transition-colors">
                 Learn More
               </button>
             </div>
@@ -56,38 +56,38 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-8 rounded-2xl bg-purple-100 border border-purple-200 hover:shadow-lg transition-all duration-300">
-              <CheckCircle className="h-12 w-12 text-purple-700 mx-auto mb-4" />
-              <h3 className="text-xl font-medium mb-2 text-gray-800">Required Local Contact</h3>
-              <p className="text-gray-600">To meet county regulations</p>
+            <div className="text-center p-8 rounded-2xl bg-purple-800 border border-purple-200 hover:shadow-lg transition-all duration-300">
+              <CheckCircle className="h-12 w-12 text-purple-200 mx-auto mb-4" />
+              <h3 className="text-xl font-medium mb-2 text-purple-100">Required Local Contact</h3>
+              <p className="text-purple-200">To meet county regulations</p>
             </div>
-            <div className="text-center p-8 rounded-2xl bg-emerald-100 border border-emerald-200 hover:shadow-lg transition-all duration-300">
-              <Shield className="h-12 w-12 text-emerald-700 mx-auto mb-4" />
-              <h3 className="text-xl font-medium mb-2 text-gray-800">Reliable In-Person Backup</h3>
-              <p className="text-gray-600">For emergency guest needs or rule enforcement</p>
+            <div className="text-center p-8 rounded-2xl bg-emerald-700 border border-emerald-200 hover:shadow-lg transition-all duration-300">
+              <Shield className="h-12 w-12 text-emerald-200 mx-auto mb-4" />
+              <h3 className="text-xl font-medium mb-2 text-emerald-100">Reliable In-Person Backup</h3>
+              <p className="text-emerald-100">For emergency guest needs or rule enforcement</p>
             </div>
-            <div className="text-center p-8 rounded-2xl bg-purple-100 border border-purple-200 hover:shadow-lg transition-all duration-300">
-              <MapPin className="h-12 w-12 text-purple-700 mx-auto mb-4" />
-              <h3 className="text-xl font-medium mb-2 text-gray-800">Professional On-Ground Presence</h3>
-              <p className="text-gray-600">When you can&apos;t be there</p>
+            <div className="text-center p-8 rounded-2xl bg-purple-800 border border-purple-200 hover:shadow-lg transition-all duration-300">
+              <MapPin className="h-12 w-12 text-purple-200 mx-auto mb-4" />
+              <h3 className="text-xl font-medium mb-2 text-purple-100">Professional On-Ground Presence</h3>
+              <p className="text-purple-100">When you can&apos;t be there</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 bg-gradient-to-br from-purple-50 to-emerald-50">
+      <section id="services" className="py-20 bg-gradient-to-br from-purple-900 to-emerald-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-semibold text-gray-800 mb-4">🔧 Core Services</h2>
-            <p className="text-xl text-gray-600">Professional support tailored for independent Airbnb hosts</p>
+            <p className="text-xl text-gray-200">Professional support tailored for independent Airbnb hosts</p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
             {/* Local Contact Service */}
             <div className="bg-white rounded-2xl p-8 shadow-xl border border-purple-200 hover:shadow-2xl transition-all duration-300">
               <div className="flex items-center mb-4">
-                <Shield className="h-8 w-8 text-purple-600 mr-3" />
+                <Shield className="h-8 w-8 text-purple-800 mr-3" />
                 <h3 className="text-2xl font-semibold text-gray-800">🧙 Local Contact</h3>
               </div>
               <p className="text-gray-600 mb-6 leading-relaxed">
@@ -97,29 +97,29 @@ export default function Home() {
                 <h4 className="font-semibold text-gray-700 mb-3">We offer:</h4>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-emerald-600 mr-3 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-emerald-800 mr-3 mt-0.5" />
                     <span className="text-gray-700">24/7 availability as your registered local contact</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-emerald-600 mr-3 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-emerald-800 mr-3 mt-0.5" />
                     <span className="text-gray-700">Response to county or neighbor complaints (trash, parking, noise, fires)</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-emerald-600 mr-3 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-emerald-800 mr-3 mt-0.5" />
                     <span className="text-gray-700">On-site visits for guest issues: lockouts, rule violations, fire hazards, etc.</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-emerald-600 mr-3 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-emerald-800 mr-3 mt-0.5" />
                     <span className="text-gray-700">Incident reporting with photos and time stamps</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-emerald-600 mr-3 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-emerald-800 mr-3 mt-0.5" />
                     <span className="text-gray-700">Coordination with law enforcement or code enforcement if needed</span>
                   </li>
                 </ul>
               </div>
-              <div className="border-t border-purple-200 pt-6">
-                <div className="bg-purple-50 p-6 rounded-xl border border-purple-100">
+              <div className="border-t border-purple-800 pt-6">
+                <div className="bg-purple-50 p-6 rounded-xl border border-purple-800">
                   <p className="text-2xl font-semibold text-purple-800">Monthly Retainer: $80</p>
                   <p className="text-sm text-gray-600 mt-1">This covers your legal local contact requirement and keeps us on-call 24/7.</p>
                   <p className="text-sm text-gray-600 mt-2">If a physical response is needed, a visit is billed separately at $75/hour + mileage.</p>
@@ -131,7 +131,7 @@ export default function Home() {
             {/* Emergency Response */}
             <div className="bg-white rounded-2xl p-8 shadow-xl border border-emerald-200 hover:shadow-2xl transition-all duration-300">
               <div className="flex items-center mb-4">
-                <Phone className="h-8 w-8 text-emerald-600 mr-3" />
+                <Phone className="h-8 w-8 text-emerald-800 mr-3" />
                 <h3 className="text-2xl font-semibold text-gray-800">🚨 Guest Emergency Visit (As-Needed)</h3>
               </div>
               <p className="text-gray-600 mb-6 leading-relaxed">
@@ -141,23 +141,23 @@ export default function Home() {
                 <h4 className="font-semibold text-gray-700 mb-3">Real examples we&apos;ve handled:</h4>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-purple-600 mr-3 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-purple-800 mr-3 mt-0.5" />
                     <span className="text-gray-700">&quot;The power has gone out. Can you bring us fire wood to the cabin?&quot; (True story)</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-purple-600 mr-3 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-purple-800 mr-3 mt-0.5" />
                     <span className="text-gray-700">&quot;There are poisonous spiders everywhere, we can&apos;t stay here&quot; (True story, they were Daddy-Long-Legs)</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-purple-600 mr-3 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-purple-800 mr-3 mt-0.5" />
                     <span className="text-gray-700">&quot;Can we light a fire outside?&quot; (answer: no!) But you think maybe they do anyway</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-purple-600 mr-3 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-purple-800 mr-3 mt-0.5" />
                     <span className="text-gray-700">Your cleaner shows up but the guests don&apos;t respect the check out time</span>
                   </li>
                   <li className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-purple-600 mr-3 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-purple-800 mr-3 mt-0.5" />
                     <span className="text-gray-700">Neighbors report noise, illegal fires, parking blockages</span>
                   </li>
                 </ul>
@@ -315,7 +315,7 @@ export default function Home() {
       </section>
 
       {/* Service Area */}
-      <section className="py-16 bg-gradient-to-r from-purple-50 to-emerald-50">
+      <section className="py-16 bg-gradient-to-r purple-950">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-semibold mb-8 text-gray-800">🏥 Service Area:</h2>
@@ -343,25 +343,25 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-gradient-to-br from-purple-100 to-emerald-100">
+      <section className="py-20 bg-gradient-to-br from-purple-900 to-emerald-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-semibold mb-4 text-gray-800">✨ Why Hosts Work with Us</h2>
-            <p className="text-xl text-gray-600">We don&apos;t take over your listing.</p>
+            <p className="text-xl text-gray-200">We don&apos;t take over your listing.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center bg-white p-8 rounded-2xl shadow-xl border border-purple-200 hover:shadow-2xl transition-all duration-300">
-              <Star className="h-12 w-12 text-purple-600 mx-auto mb-4" />
+              <Star className="h-12 w-12 text-purple-800 mx-auto mb-4" />
               <h3 className="text-xl font-medium mb-2 text-gray-800">You Keep Guest Contact and Control</h3>
               <p className="text-gray-600 leading-relaxed">We&apos;re your trusted local extension.</p>
             </div>
             <div className="text-center bg-white p-8 rounded-2xl shadow-xl border border-emerald-200 hover:shadow-2xl transition-all duration-300">
-              <MapPin className="h-12 w-12 text-emerald-600 mx-auto mb-4" />
+              <MapPin className="h-12 w-12 text-emerald-800 mx-auto mb-4" />
               <h3 className="text-xl font-medium mb-2 text-gray-800">Built for Mountain-Area Properties</h3>
               <p className="text-gray-600 leading-relaxed">We know the terrain, fire risks, and local rules.</p>
             </div>
             <div className="text-center bg-white p-8 rounded-2xl shadow-xl border border-purple-200 hover:shadow-2xl transition-all duration-300">
-              <Shield className="h-12 w-12 text-purple-600 mx-auto mb-4" />
+              <Shield className="h-12 w-12 text-purple-800 mx-auto mb-4" />
               <h3 className="text-xl font-medium mb-2 text-gray-800">We Keep Things Quiet, Clean, and Legal</h3>
               <p className="text-gray-600 leading-relaxed">Even when your guests don&apos;t.</p>
             </div>
@@ -370,17 +370,17 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section id="contact" className="py-20 bg-gradient-to-r from-purple-600 to-purple-700">
+      <section id="contact" className="py-20 from-purple-600 to-purple-700">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-semibold text-white mb-6">Ready to Get Started?</h2>
           <p className="text-xl text-purple-100 mb-8 leading-relaxed">
             Join the growing community of Airbnb hosts who trust Host Hit Squad for their local support needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-purple-600 px-8 py-4 rounded-full text-lg font-medium hover:bg-purple-50 transition-colors shadow-lg">
+            <button className="bg-white text-purple-800 px-8 py-4 rounded-full text-lg font-medium hover:bg-purple-50 transition-colors shadow-lg">
               Get Your Quote
             </button>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-purple-800 transition-colors">
+            <button className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-medium transition-colors">
               Call (559) XXX-XXXX
             </button>
           </div>
@@ -388,19 +388,19 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-br from-gray-800 to-gray-900 text-white py-12">
+      <footer className="from-gray-800 to-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center mb-4">
-                <Shield className="h-6 w-6 text-purple-300 mr-2" />
+                <Shield className="h-6 w-6 text-purple-800 mr-2" />
                 <h3 className="text-lg font-medium">Host Hit Squad</h3>
               </div>
-              <p className="text-gray-300 leading-relaxed">Your trusted local contact and emergency response team for Airbnb hosts.</p>
+              <p className="text-gray-50 leading-relaxed">Your trusted local contact and emergency response team for Airbnb hosts.</p>
             </div>
             <div>
-              <h4 className="font-medium mb-4 text-purple-200">Services</h4>
-              <ul className="space-y-2 text-gray-300">
+              <h4 className="font-medium mb-4 text-neutral-300">Services</h4>
+              <ul className="space-y-2 text-gray-50">
                 <li>Local Contact</li>
                 <li>Emergency Response</li>
                 <li>Quality Checks</li>
@@ -408,8 +408,8 @@ export default function Home() {
               </ul>
             </div>
             <div>
-              <h4 className="font-medium mb-4 text-emerald-200">Service Area</h4>
-              <ul className="space-y-2 text-gray-300">
+              <h4 className="font-medium mb-4 text-neutral-300">Service Area</h4>
+              <ul className="space-y-2 text-gray-50">
                 <li>Oakhurst</li>
                 <li>Bass Lake</li>
                 <li>Coarsegold</li>
@@ -418,8 +418,8 @@ export default function Home() {
               </ul>
             </div>
             <div>
-              <h4 className="font-medium mb-4 text-purple-200">Contact</h4>
-              <ul className="space-y-2 text-gray-300">
+              <h4 className="font-medium mb-4 text-neutral-300">Contact</h4>
+              <ul className="space-y-2 text-gray-50">
                 <li>24/7 Emergency Line</li>
                 <li>(559) XXX-XXXX</li>
                 <li>info@hosthitsquad.com</li>
