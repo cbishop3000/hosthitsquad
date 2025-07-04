@@ -69,7 +69,7 @@ export default function Home() {
             <div className="text-center p-8 rounded-2xl bg-purple-100 border border-purple-200 hover:shadow-lg transition-all duration-300">
               <MapPin className="h-12 w-12 text-purple-700 mx-auto mb-4" />
               <h3 className="text-xl font-medium mb-2 text-gray-800">Professional On-Ground Presence</h3>
-              <p className="text-gray-600">When you can't be there</p>
+              <p className="text-gray-600">When you can&apos;t be there</p>
             </div>
           </div>
         </div>
@@ -138,23 +138,23 @@ export default function Home() {
                 On the ground response when guests call with issues or when you need professional intervention.
               </p>
               <div className="mb-6">
-                <h4 className="font-semibold text-gray-700 mb-3">Real examples we've handled:</h4>
+                <h4 className="font-semibold text-gray-700 mb-3">Real examples we&apos;ve handled:</h4>
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-purple-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">"The power has gone out. Can you bring us fire wood to the cabin?" (True story)</span>
+                    <span className="text-gray-700">&quot;The power has gone out. Can you bring us fire wood to the cabin?&quot; (True story)</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-purple-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">"There are poisonous spiders everywhere, we can't stay here" (True story, they were Daddy-Long-Legs)</span>
+                    <span className="text-gray-700">&quot;There are poisonous spiders everywhere, we can&apos;t stay here&quot; (True story, they were Daddy-Long-Legs)</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-purple-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">"Can we light a fire outside?" (answer: no!) But you think maybe they do anyway</span>
+                    <span className="text-gray-700">&quot;Can we light a fire outside?&quot; (answer: no!) But you think maybe they do anyway</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-purple-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">Your cleaner shows up but the guests don't respect the check out time</span>
+                    <span className="text-gray-700">Your cleaner shows up but the guests don&apos;t respect the check out time</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-purple-600 mr-3 mt-0.5" />
@@ -163,7 +163,7 @@ export default function Home() {
                 </ul>
               </div>
               <div className="bg-emerald-50 p-6 rounded-xl mb-4 border border-emerald-100">
-                <p className="text-gray-700 font-medium">We step in. We're calm, professional, and act as your proxy.</p>
+                <p className="text-gray-700 font-medium">We step in. We&apos;re calm, professional, and act as your proxy.</p>
                 <p className="text-sm text-gray-600 mt-2">Think of us as your on-call Airbnb bouncer—but polite.</p>
               </div>
             </div>
@@ -182,7 +182,7 @@ export default function Home() {
                 <h3 className="text-2xl font-semibold text-gray-800">🛋️ Post-Clean or Pre-Guest Quality Checks</h3>
               </div>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Peace of mind when you're managing from afar.
+                Peace of mind when you&apos;re managing from afar.
               </p>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start">
@@ -212,7 +212,7 @@ export default function Home() {
               </ul>
               <div className="bg-purple-50 p-6 rounded-xl border border-purple-100">
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  If your cleaners have had back-to-back flips, we'll notice when things like the oven or fridge need a deeper clean and flag that for your attention.
+                  If your cleaners have had back-to-back flips, we&apos;ll notice when things like the oven or fridge need a deeper clean and flag that for your attention.
                   We help you stay ahead of wear and tear and maintain the standard your reviews depend on.
                 </p>
               </div>
@@ -231,7 +231,7 @@ export default function Home() {
                 <h3 className="text-2xl font-semibold text-gray-800">🚀 New Host Setup Consulting</h3>
               </div>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                New to Airbnb? We'll walk your property with you or on your behalf and help you launch like a pro.
+                New to Airbnb? We&apos;ll walk your property with you or on your behalf and help you launch like a pro.
               </p>
               <div className="mb-6">
                 <h4 className="font-semibold text-gray-700 mb-3">Consultation includes:</h4>
@@ -254,7 +254,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-purple-600 mr-3 mt-0.5" />
-                    <span className="text-gray-700">Connect you with local cleaners we've vetted and trust</span>
+                    <span className="text-gray-700">Connect you with local cleaners we&apos;ve vetted and trust</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-purple-600 mr-3 mt-0.5" />
